@@ -1,0 +1,362 @@
+
+# ============================================================
+# SOCCER PENALTIES MODEL
+# Python / Data Science / Machine Learning
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 1. PYTHON GENERATED FILES
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Compiled Python extensions
+*.so
+
+# Python bytecode and optimisation
+.python-version-cache/
+
+
+# ------------------------------------------------------------
+# 2. VIRTUAL ENVIRONMENTS
+# ------------------------------------------------------------
+
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+.python-env/
+
+# Common virtual environment names
+venv.bak/
+venv_old/
+
+
+# ------------------------------------------------------------
+# 3. ENVIRONMENT VARIABLES AND SECRETS
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+secrets.json
+secrets.yaml
+secrets.yml
+
+# Local authentication files
+.token
+.token_cache/
+secrets/
+
+
+# ------------------------------------------------------------
+# 4. PYTHON PACKAGING AND BUILD OUTPUTS
+# ------------------------------------------------------------
+
+build/
+dist/
+site/
+wheels/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Package manager metadata
+poetry.lock.tmp
+.pdm-python
+.pdm-build/
+__pypackages__/
+
+
+# ------------------------------------------------------------
+# 5. TESTING AND CODE COVERAGE
+# ------------------------------------------------------------
+
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+test-results/
+junit.xml
+
+# Type checking and linting caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.pyright/
+.pyre_configuration.local
+
+
+# ------------------------------------------------------------
+# 6. JUPYTER NOTEBOOKS
+# ------------------------------------------------------------
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+jupyter-runtime/
+
+# NOTE:
+# Keep .ipynb notebooks tracked.
+# They contain our analysis and experiments.
+
+
+# ------------------------------------------------------------
+# 7. DATASETS AND DATA PIPELINES
+# ------------------------------------------------------------
+
+# Raw datasets: may be large or subject to licensing restrictions
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed and intermediate datasets
+data/processed/*
+!data/processed/.gitkeep
+
+# Feature engineering outputs
+data/interim/*
+!data/interim/.gitkeep
+
+# Local external data copies
+data/external/*
+!data/external/.gitkeep
+
+# Common large data files
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# NOTE:
+# Small, approved sample datasets can be tracked later
+# by adjusting these rules when needed.
+
+
+# ------------------------------------------------------------
+# 8. MACHINE LEARNING MODEL ARTIFACTS
+# ------------------------------------------------------------
+
+# Trained models and serialized estimators
+models/*
+!models/.gitkeep
+
+# Common model formats
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.keras
+*.h5
+
+# Experiment outputs
+mlruns/
+mlartifacts/
+wandb/
+lightning_logs/
+checkpoints/
+
+# Model tracking and tuning
+optuna.db
+ray_results/
+neptune/
+clearml/
+
+
+# ------------------------------------------------------------
+# 9. LOGS AND TEMPORARY OUTPUTS
+# ------------------------------------------------------------
+
+logs/
+*.log
+*.out
+*.err
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+*~
+
+# PID and runtime files
+*.pid
+*.seed
+*.sock
+
+
+# ------------------------------------------------------------
+# 10. VISUALISATIONS AND GENERATED REPORTS
+# ------------------------------------------------------------
+
+# Generated charts and figures
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Generated reports
+reports/generated/*
+!reports/generated/.gitkeep
+
+# Exported predictions and experiment results
+outputs/
+predictions/
+experiments/outputs/
+
+# NOTE:
+# Keep plotting scripts and report source files tracked.
+
+
+# ------------------------------------------------------------
+# 11. OPERATING SYSTEM FILES
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux desktop files
+.directory
+.Trash-*/
+
+
+# ------------------------------------------------------------
+# 12. EDITORS AND IDEs
+# ------------------------------------------------------------
+
+# Visual Studio
+.vs/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+
+# VS Code:
+# Do not ignore the whole .vscode directory.
+# Shared project settings and extension recommendations
+# may be useful to commit.
+
+
+# ------------------------------------------------------------
+# 13. PYTHON TOOLING AND LOCAL CONFIGURATION
+# ------------------------------------------------------------
+
+# Local Python version manager files
+.python-version.local
+
+# Local environment configuration
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency and tool caches
+.cache/
+.pycache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ------------------------------------------------------------
+# 14. DOCUMENTATION BUILD OUTPUTS
+# ------------------------------------------------------------
+
+# Generated documentation
+docs/_build/
+docs/site/
+mkdocs_site/
+
+
+# ------------------------------------------------------------
+# 15. CLOUD, DEPLOYMENT AND INFRASTRUCTURE
+# ------------------------------------------------------------
+
+# Terraform local state (keep reusable configuration tracked)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Serverless deployment output
+.serverless/
+
+# Local deployment overrides
+docker-compose.override.yml.local
+
+
+# ------------------------------------------------------------
+# 16. LARGE FILES AND ARCHIVES
+# ------------------------------------------------------------
+
+# Common archives and compressed files
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# Large binary exports
+*.parquet.gzip
+*.csv.gz
+
+
+# ------------------------------------------------------------
+# 17. PROJECT-SPECIFIC NOTES
+# ------------------------------------------------------------
+
+# Keep source code, tests, configuration, notebooks,
+# documentation, and approved project assets in Git.
+#
+# Never commit private credentials or licensed datasets
+# without checking the applicable permissions.
+#
+# Large datasets and trained models can be managed using
+# a suitable data/model versioning solution later.
